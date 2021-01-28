@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+
+<!--
+    ***Mobile friendly nav****
+
+    <div class="site-main-wrapper">
+    <button class="hamberger">
+        <img src="images/hamberger.svg" alt="">
+    </button>
+
+    <div class="mobile-nav">
+        <button class="times"><img src="images/times.svg" alt=""></button>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Skill</a></li>
+        </ul>
+    </div>
+-->
+
+
+<!--Header section-->
+    <header>
+    <div class="container ">
+        <!--Navbar-->
+        <nav id="main-nav" class="flex justify-between item-center">
+            <div class="left flex item-center">
+                <div class="branding">
+                    <img src="images/logo.svg" alt="">
+                </div>
+                <div>
+                    <a href="index.html">Home</a>
+                    <a href="#about-id">About</a>
+                    <a href="#skills-id">Skills</a>
+                    <a href="#projects-id">Projects</a>
+                </div>
+            </div>
+
+            <div class="right">
+                <button class="btn btn-primary">Contact</button>
+            </div>
+        </nav>
+
+        <!--Intro and illustrator-->
+        <div class="hero flex justify-between item-center">
+            <div class="left flex-1 flex flex-start">
+                <img src="images/undraw_Short_bio_re_fmx0.svg" alt="">
+            </div>
+            <div class="right flex-1 item-center">
+                <h6>Sakshi Sapkale</h6>
+                <h1>I'm a Creative <span>Designer</span></h1>
+                <p>I am Front End Developer and Designer, Experienced in building responsive websites using Html css and javascript. I build fast, interactive websites.
+                    I prefer to keep learning, able to pick up new skills and continue challenging myself.</p>
+                <button class="btn btn-secondary">Download CV</button>
+            </div> 
+        </div>
+
+    </div>
+    </header>
+
+
+    <!--About-->
+    <section class="about" id="about-id">
+        <div class="container flex items-center">
+            <div class="flex-1">
+                <img class="about-img" src="images/undraw_Nature_benefits_re_kk70.svg" alt="">
+            </div>
+
+            <div class="flex-1">
+                <h1>About<span> Me</span></h1>
+                <h3>Hello! I'm Sakshi sapkale</h3>
+                <p>
+                    I am prefinal year student, pursuing under grad from Dr. Babasaheb Ambedakar Techonological Univercity in computer science and engineering. I'm enthusiastic, positive and hard working fresher eager to learn and work on new technologies . I have good record of academic with 8.72 CGPA (till Sem 5). Apart from this I have strong desire to undertake challenging jobs and to work with team to archieve jobs and the goals and long-term relationship where the skills and techniques developed over my career will assist me in performing the duties required.
+                </p>
+
+                <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills-->
+    <section class="languages" id="skills-id"> 
+        <h2 class="md  my-2">
+            Skills
+        </h2>
+        <div class="container flex justify-between">
+            <div class="card">
+                <h4>C/C++</h4>
+                <img src="images/logos/c.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Python</h4>
+                <img src="images/logos/python.png" alt="">
+            </div>
+            <div class="card">
+                <h4>HTML</h4>
+                <img src="images/logos/html.png" alt="">
+            </div>
+            <div class="card">
+                <h4>CSS</h4>
+                <img src="images/logos/css.png">
+            </div>
+            <div class="card">
+                <h4>Javascript</h4>
+                <img src="images/logos/javascript.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Bootstrap</h4>
+                <img src="images/logos/bootstrap.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Projects-->
+    <section class="services" id="projects-id" >
+        <div class="container">
+            <div>
+                <h1 class="section-heading">My <span>Projects</span></h1>
+                <p>I love to make high standared clean website for your business solution</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="images/logos/brush.svg" alt="">
+                        <h2>Web Design</h2>
+                        <p>I have created attractive and beautiful 7 web design pages using HTML5 and CSS3. </p> 
+                        <a href="#">View Project</a> 
+                    </div>
+
+                    <div class="card">
+                        <img src="images/logos/code.svg" alt="">
+                        <h2>Cloud Website</h2>
+                        <p>The cloud website is responsive website for deployment of web apps of all kinds.</p> 
+                        <a href="#">View Project</a>  
+                    </div>
+
+                    <div class="card">
+                        <img src="images/logos/code.svg" alt="">
+                        <h2>Microsoft Homepage</h2>
+                        <p>It is a clone of Microsoft Homepage which is also mobile friendly.</p> 
+                        <a href="#">View Project</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Freelance-->
+    <section class="freelancer">
+        <h1>I’m Available For Freelance/Internship</h1>
+        <p>I’m always open to discussing product design work or partnership opportunities.</p>
+        <button class="btn btn-primary">Download CV</button>
+
+    </section>
+
+
+</body>
+</html>
+
+
+
+
